@@ -4,7 +4,11 @@
 <br>
 Sending Data from ESP32 To Google Sheets
 
+# Downloads
+**GSheet32 [Arduino Library](https://github.com/MRROBO28/GSheet32/releases/latest)**
+
 # How to use
+## Get GAS ID
 - Go to google Spreadsheets <a href="https://docs.google.com/spreadsheets/u/0/"/>Click Links
 - Create a new sheet or if it already exists select the sheet
 - Copy and save your sheet id from the link in your sheet
@@ -25,3 +29,10 @@ Sending Data from ESP32 To Google Sheets
 - Follow the steps to give google account Permission
 - Once done, Save the deployment id or GAS_ID<BR>
   <img src="/img/SC7.png"/>
+  
+## Use Library
+  - You can visit <a href="https://github.com/MRROBO28/GSheet32/examples/">Examples</a>
+  - Print Data to Google Spreadsheet 
+    <pre><code>Sheet.senData("value1=Hallo&value2=World"); // Customize with the parameters that you store in the code.gs program, If you want to use spaces, change the spaces to %20
+    </pre></code>
+    

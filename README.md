@@ -31,7 +31,7 @@ Sending Data from ESP32 To Google Sheets
   <img src="/img/SC7.png"/>
   
 ## Use Library
-  - You can visit <a href="https://github.com/MRROBO28/GSheet32/examples/">Examples</a>
+  - You can visit <a href="https://github.com/MRROBO28/GSheet32/tree/main/examples/">Examples</a>
   - Print Data to Google Spreadsheet 
     <pre><code>Sheet.senData("value1=Hallo&value2=World"); // Customize with the parameters that you store in the code.gs program, If you want to use spaces, change the spaces to %20
     </pre></code>

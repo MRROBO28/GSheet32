@@ -20,4 +20,8 @@ Sending Data from ESP32 To Google Sheets
   <img src="/img/SC4.png"/>
 - select type -> web application<br>
   <img src="/img/SC5.png"/>
-
+- Set access to anyone and hit apply<br>
+  <img src="/img/SC6.png"/>
+- Follow the steps to give google account Permission
+- Once done, Save the deployment id or GAS_ID<BR>
+  <img src="/img/SC7.png"/>

@@ -1,0 +1,22 @@
+{
+    "name": "GSheet32",
+    "version": "1.0.0",
+    "description": "GSheet32 is a library that simplifies the process of sending data from ESP32 to Google Sheets. It uses the Google Sheets API to create a new row in the specified spreadsheet, with the data provided by the user.",
+    "keywords": [
+        "Google SpreadSheet"
+    ],
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/MRROBO28/GSheet32.git"
+    },
+    "authors": [
+        {
+            "name": "MRROBO28"
+        }
+    ],
+    "frameworks": "arduino",
+    "platforms": [
+        "espressif32"
+    ]
+}

@@ -1,6 +1,6 @@
 # GSheet32
 [![GitHub version](https://img.shields.io/github/release/MRROBO28/GSheet32.svg)](https://github.com/MRROBO28/GSheet32/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/MRROBO28/GSheet32/total.svg)](https://github.com/MRROBO28/GSheet32/releases)
+[![Downloads](https://img.shields.io/github/downloads/MRROBO28/GSheet32/total?style=plastic)](https://github.com/MRROBO28/GSheet32/releases)
 <br>
 Sending Data from ESP32 To Google Sheets
 

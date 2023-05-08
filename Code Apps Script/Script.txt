@@ -26,6 +26,21 @@ function doGet(e) {
           rowData[3] = value; //Value in column D
           result += ' Written on column D';
           break;
+        
+        case 'value3': //Parameter 3, It has to be updated in Column in Sheets in the code, orderwise
+          rowData[4] = value; //Value in column E
+          result += ' Written on column E';
+          break;
+        
+        case 'value4': //Parameter 4, It has to be updated in Column in Sheets in the code, orderwise
+          rowData[5] = value; //Value in column F
+          result += ' Written on column F';
+          break;
+        
+        case 'value5': //Parameter 5, It has to be updated in Column in Sheets in the code, orderwise
+          rowData[6] = value; //Value in column G
+          result += ' Written on column G';
+          break;
        
         default:
           result = "unsupported parameter";

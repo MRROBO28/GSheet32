@@ -16,7 +16,11 @@ public:
    GSheet32(String GAS_ID);
    void connectWiFi(const char* ssid, const char* pass);
 
-   void sendData(String param);
+   void sendData(String colC);
+   void sendData(String colC, String colD);
+   void sendData(String colC, String colD, String colE);
+   void sendData(String colC, String colD, String colE, String colF);
+   void sendData(String colC, String colD, String colE, String colF, String colG);
 
 };
 #endif

@@ -4,6 +4,12 @@ function doGet(e) {
   if (e.parameter == 'undefined') {
     result = 'No Parameters';
   }
+  else if (e.parameter.clearData === 'true') { // added parameter to clear data
+    var sheet_id = 'your sheet id'; 		// Spreadsheet ID
+    var sheet = SpreadsheetApp.openById(sheet_id).getActiveSheet();		// get Active sheet
+    sheet.getDataRange().clear(); // clear all data in the sheet
+    result = 'All data cleared';
+  }
   else {
     var sheet_id = 'your sheet id'; 		// Spreadsheet ID
     var sheet = SpreadsheetApp.openById(sheet_id).getActiveSheet();		// get Active sheet
@@ -41,7 +47,7 @@ function doGet(e) {
           rowData[6] = value; //Value in column G
           result += ' Written on column G';
           break;
-       
+        
         default:
           result = "unsupported parameter";
       }
@@ -54,6 +60,7 @@ function doGet(e) {
   // Return result of operation
   return ContentService.createTextOutput(result);
 }
+
 function stripQuotes( value ) {
   return value.replace(/^["']|['"]$/g, "");
 }

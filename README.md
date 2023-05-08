@@ -17,9 +17,6 @@ Sending Data from ESP32 To Google Sheets
 - Copy the code in <a href="/Code Apps Script/Script.txt">/Code Apps Script/Script.txt</a> to code.gs
 - Replace the program var sheet_id with the sheet id you saved
   <img src="/img/SC2.png"/>
-- You can add new Parameters by adding a case to the following code
-  <img src="/img/SC1.png"/>
-  <br><b>NOTE : Remember your parameters for smooth use of the Library</b>
 - Click apply -> New Deployment<br>
   <img src="/img/SC4.png"/>
 - select type -> web application<br>
@@ -32,9 +29,11 @@ Sending Data from ESP32 To Google Sheets
   
 ## Use Library
   - You can visit <a href="https://github.com/MRROBO28/GSheet32/tree/main/examples/">Examples</a>
-  - Print Data to Google Spreadsheet 
-    <pre><code>Sheet.sendData("value1=Hallo&value2=World"); // Customize with the parameters that you store in the code.gs program, If you want to use spaces, change the spaces to %20
+  - Print Data to Google Spreadsheet (Max 5 column)
+    <pre><code>Sheet.sendData("C","D","E","F","G"); 
     </pre></code>
-    
+  - if you want to add space in 1 column then change the space to %20, or you can type it with the help of url encode
+    <pre><code>Sheet.sendData("Hello%20World"); 
+    </pre></code>
 # License
 This project is released under The MIT License (MIT)

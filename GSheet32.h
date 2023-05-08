@@ -21,6 +21,7 @@ public:
    void sendData(String colC, String colD, String colE);
    void sendData(String colC, String colD, String colE, String colF);
    void sendData(String colC, String colD, String colE, String colF, String colG);
+   void clearData();
 
 };
 #endif

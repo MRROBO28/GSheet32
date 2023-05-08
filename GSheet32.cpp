@@ -106,3 +106,20 @@ void GSheet32::sendData(String colC, String colD,String colE, String colF, Strin
         
      http.end();
 }
+
+void GSheet32::clearData(){
+    String url = "https://script.google.com/macros/s/" + _GAS_ID + "/exec?clearData=true";
+    http.begin(url.c_str()); //Specify the URL and certificate
+    http.setFollowRedirects(HTTPC_STRICT_FOLLOW_REDIRECTS);
+    int httpCode = http.GET();
+    String payload;
+    if (httpCode > 0){
+      payload = http.getString();
+     Serial.println(httpCode);
+     Serial.println(payload);
+     }else {
+     Serial.println("Failed");
+    }
+        
+     http.end();
+}

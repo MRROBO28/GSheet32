@@ -16,7 +16,7 @@ Sending Data from ESP32 To Google Sheets
 - Go to Extensions -> Apps Script
 - Copy the code in <a href="/Code Apps Script/Script.txt">/Code Apps Script/Script.txt</a> to code.gs
 - Replace the program var sheet_id with the sheet id you saved
-  <img src="/img/SC2.png"/>
+  <img src="/img/sc2.png"/>
 - Click apply -> New Deployment<br>
   <img src="/img/SC4.png"/>
 - select type -> web application<br>
